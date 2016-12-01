@@ -47,6 +47,7 @@ module Snapshot
 
           config[:devices] << sim.name
         end
+        config[:devices] << "Mac"
       end
     end
   end
